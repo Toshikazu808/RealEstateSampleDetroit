@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12DDF499FFEB97D8C2AE00F1 /* Pods_ScrollViewPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD918C09E2C767F3D873829F /* Pods_ScrollViewPractice.framework */; };
+		BC1DB2BF266E8BDE00A24679 /* ScrollViewPracticeCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1DB2BE266E8BDE00A24679 /* ScrollViewPracticeCalculatorTests.swift */; };
+		BC2FC538266AE2A700F26603 /* USRealEstateAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = BC2FC537266AE2A700F26603 /* USRealEstateAPI.json */; };
+		BC3E265926752FB0005C999C /* HomeVCExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3E265826752FB0005C999C /* HomeVCExtensions.swift */; };
+		BC4BDC3C2666E22E0073FCB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BDC3B2666E22E0073FCB1 /* AppDelegate.swift */; };
+		BC4BDC3E2666E22E0073FCB1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BDC3D2666E22E0073FCB1 /* SceneDelegate.swift */; };
+		BC4BDC402666E22E0073FCB1 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4BDC3F2666E22E0073FCB1 /* HomeVC.swift */; };
+		BC4BDC432666E22E0073FCB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4BDC412666E22E0073FCB1 /* Main.storyboard */; };
+		BC4BDC452666E2300073FCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC4BDC442666E2300073FCB1 /* Assets.xcassets */; };
+		BC4BDC482666E2300073FCB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC4BDC462666E2300073FCB1 /* LaunchScreen.storyboard */; };
+		BC57B8C7266D766D00B05D41 /* RentEstimateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57B8C6266D766D00B05D41 /* RentEstimateModel.swift */; };
+		BC57B8C9266D924500B05D41 /* RentEstimateAPI.json in Resources */ = {isa = PBXBuildFile; fileRef = BC57B8C8266D924500B05D41 /* RentEstimateAPI.json */; };
+		BC5F9B4F266DD57700CF2DD1 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F9B4E266DD57700CF2DD1 /* K.swift */; };
+		BC5F9B52266DD8AD00CF2DD1 /* APIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F9B51266DD8AD00CF2DD1 /* APIHelper.swift */; };
+		BC5F9B54266DEB2100CF2DD1 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5F9B53266DEB2100CF2DD1 /* Calculator.swift */; };
+		BC6826EB2669F07900E5958E /* USRealEstatePropertyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6826EA2669F07900E5958E /* USRealEstatePropertyModel.swift */; };
+		BC6826EF2669F7A600E5958E /* ZillowPropertyExtendedSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6826EE2669F7A600E5958E /* ZillowPropertyExtendedSearchModel.swift */; };
+		BC6826F12669FA5500E5958E /* ZillowPropertyDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6826F02669FA5500E5958E /* ZillowPropertyDetails.swift */; };
+		BC69C2BC266AE45900B64DF1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC69C2BB266AE45900B64DF1 /* Extensions.swift */; };
+		BC85E7DF266F324200A79FC6 /* Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC85E7DE266F324200A79FC6 /* Format.swift */; };
+		BCB07506267002E00062A538 /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB07505267002E00062A538 /* Attributes.swift */; };
+		BCC56898266FE6700044EA0D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC56897266FE6700044EA0D /* LocationManager.swift */; };
+		BCC5689A266FEA530044EA0D /* MapQuestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC56899266FEA530044EA0D /* MapQuestModel.swift */; };
+		BCC5689C266FEABB0044EA0D /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC5689B266FEABB0044EA0D /* DataManager.swift */; };
+		BCDE47DF2671653100D76A85 /* AdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDE47DD2671653100D76A85 /* AdCell.swift */; };
+		BCDE47E02671653100D76A85 /* AdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCDE47DE2671653100D76A85 /* AdCell.xib */; };
+		BCE7395B26676085009F3AA4 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE7395926676085009F3AA4 /* TableViewCell.swift */; };
+		BCE7395C26676085009F3AA4 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE7395A26676085009F3AA4 /* TableViewCell.xib */; };
+		BCFC42BC26706D31009A7612 /* ScrollViewPracticeFormatTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC42BB26706D31009A7612 /* ScrollViewPracticeFormatTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC1DB2C1266E8BDE00A24679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC4BDC302666E22E0073FCB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC4BDC372666E22E0073FCB1;
+			remoteInfo = ScrollViewPractice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B7C9223226912CF6BCF1AFD /* Pods-ScrollViewPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewPractice.release.xcconfig"; path = "Target Support Files/Pods-ScrollViewPractice/Pods-ScrollViewPractice.release.xcconfig"; sourceTree = "<group>"; };
+		64380BDCB7F003F1C273A760 /* Pods-ScrollViewPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollViewPractice.debug.xcconfig"; path = "Target Support Files/Pods-ScrollViewPractice/Pods-ScrollViewPractice.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1DB2BC266E8BDE00A24679 /* ScrollViewPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC1DB2BE266E8BDE00A24679 /* ScrollViewPracticeCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPracticeCalculatorTests.swift; sourceTree = "<group>"; };
+		BC1DB2C0266E8BDE00A24679 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2FC537266AE2A700F26603 /* USRealEstateAPI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = USRealEstateAPI.json; sourceTree = "<group>"; };
+		BC3E265826752FB0005C999C /* HomeVCExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVCExtensions.swift; sourceTree = "<group>"; };
+		BC4BDC382666E22E0073FCB1 /* ScrollViewPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC4BDC3B2666E22E0073FCB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC4BDC3D2666E22E0073FCB1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC4BDC3F2666E22E0073FCB1 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BC4BDC422666E22E0073FCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC4BDC442666E2300073FCB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC4BDC472666E2300073FCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC4BDC492666E2300073FCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC57B8C6266D766D00B05D41 /* RentEstimateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentEstimateModel.swift; sourceTree = "<group>"; };
+		BC57B8C8266D924500B05D41 /* RentEstimateAPI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RentEstimateAPI.json; sourceTree = "<group>"; };
+		BC5F9B4E266DD57700CF2DD1 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		BC5F9B51266DD8AD00CF2DD1 /* APIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHelper.swift; sourceTree = "<group>"; };
+		BC5F9B53266DEB2100CF2DD1 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		BC6826EA2669F07900E5958E /* USRealEstatePropertyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USRealEstatePropertyModel.swift; sourceTree = "<group>"; };
+		BC6826EE2669F7A600E5958E /* ZillowPropertyExtendedSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZillowPropertyExtendedSearchModel.swift; sourceTree = "<group>"; };
+		BC6826F02669FA5500E5958E /* ZillowPropertyDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZillowPropertyDetails.swift; sourceTree = "<group>"; };
+		BC69C2BB266AE45900B64DF1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BC85E7DE266F324200A79FC6 /* Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Format.swift; sourceTree = "<group>"; };
+		BCB07505267002E00062A538 /* Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attributes.swift; sourceTree = "<group>"; };
+		BCC56897266FE6700044EA0D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BCC56899266FEA530044EA0D /* MapQuestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapQuestModel.swift; sourceTree = "<group>"; };
+		BCC5689B266FEABB0044EA0D /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BCDE47DD2671653100D76A85 /* AdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdCell.swift; sourceTree = "<group>"; };
+		BCDE47DE2671653100D76A85 /* AdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdCell.xib; sourceTree = "<group>"; };
+		BCE7395926676085009F3AA4 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		BCE7395A26676085009F3AA4 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		BCFC42B326706CC5009A7612 /* ScrollViewPracticeFormatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPracticeFormatTests.swift; sourceTree = "<group>"; };
+		BCFC42B526706CC5009A7612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCFC42BB26706D31009A7612 /* ScrollViewPracticeFormatTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPracticeFormatTest.swift; sourceTree = "<group>"; };
+		FD918C09E2C767F3D873829F /* Pods_ScrollViewPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollViewPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC1DB2B9266E8BDE00A24679 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BDC352666E22E0073FCB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12DDF499FFEB97D8C2AE00F1 /* Pods_ScrollViewPractice.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AABD446B4B14C63A5C5317CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64380BDCB7F003F1C273A760 /* Pods-ScrollViewPractice.debug.xcconfig */,
+				4B7C9223226912CF6BCF1AFD /* Pods-ScrollViewPractice.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC1DB2BD266E8BDE00A24679 /* ScrollViewPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC42BB26706D31009A7612 /* ScrollViewPracticeFormatTest.swift */,
+				BC1DB2BE266E8BDE00A24679 /* ScrollViewPracticeCalculatorTests.swift */,
+				BC1DB2C0266E8BDE00A24679 /* Info.plist */,
+			);
+			path = ScrollViewPracticeTests;
+			sourceTree = "<group>";
+		};
+		BC2FC536266AE27200F26603 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BC2FC537266AE2A700F26603 /* USRealEstateAPI.json */,
+				BC57B8C8266D924500B05D41 /* RentEstimateAPI.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		BC3E265726752F91005C999C /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BDC3F2666E22E0073FCB1 /* HomeVC.swift */,
+				BC3E265826752FB0005C999C /* HomeVCExtensions.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		BC4BDC2F2666E22E0073FCB1 = {
+			isa = PBXGroup;
+			children = (
+				BC4BDC3A2666E22E0073FCB1 /* ScrollViewPractice */,
+				BC1DB2BD266E8BDE00A24679 /* ScrollViewPracticeTests */,
+				BCFC42B226706CC5009A7612 /* ScrollViewPracticeFormatTests */,
+				BC4BDC392666E22E0073FCB1 /* Products */,
+				AABD446B4B14C63A5C5317CB /* Pods */,
+				CF6B220049374687E6D3CA0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC4BDC392666E22E0073FCB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BDC382666E22E0073FCB1 /* ScrollViewPractice.app */,
+				BC1DB2BC266E8BDE00A24679 /* ScrollViewPracticeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC4BDC3A2666E22E0073FCB1 /* ScrollViewPractice */ = {
+			isa = PBXGroup;
+			children = (
+				BC4BDC3B2666E22E0073FCB1 /* AppDelegate.swift */,
+				BC4BDC3D2666E22E0073FCB1 /* SceneDelegate.swift */,
+				BC4BDC412666E22E0073FCB1 /* Main.storyboard */,
+				BC5F9B50266DD89200CF2DD1 /* Utilities */,
+				BC4BDC512666E9D10073FCB1 /* Model */,
+				BC4BDC502666E9CD0073FCB1 /* View */,
+				BC4BDC4F2666E9C20073FCB1 /* Controller */,
+				BC2FC536266AE27200F26603 /* Data */,
+				BC4BDC442666E2300073FCB1 /* Assets.xcassets */,
+				BC4BDC462666E2300073FCB1 /* LaunchScreen.storyboard */,
+				BC4BDC492666E2300073FCB1 /* Info.plist */,
+			);
+			path = ScrollViewPractice;
+			sourceTree = "<group>";
+		};
+		BC4BDC4F2666E9C20073FCB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC3E265726752F91005C999C /* HomeVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC4BDC502666E9CD0073FCB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCB07505267002E00062A538 /* Attributes.swift */,
+				BCE7395926676085009F3AA4 /* TableViewCell.swift */,
+				BCE7395A26676085009F3AA4 /* TableViewCell.xib */,
+				BCDE47DD2671653100D76A85 /* AdCell.swift */,
+				BCDE47DE2671653100D76A85 /* AdCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC4BDC512666E9D10073FCB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC6826EA2669F07900E5958E /* USRealEstatePropertyModel.swift */,
+				BC6826EE2669F7A600E5958E /* ZillowPropertyExtendedSearchModel.swift */,
+				BC6826F02669FA5500E5958E /* ZillowPropertyDetails.swift */,
+				BC57B8C6266D766D00B05D41 /* RentEstimateModel.swift */,
+				BCC56899266FEA530044EA0D /* MapQuestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC5F9B50266DD89200CF2DD1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC69C2BB266AE45900B64DF1 /* Extensions.swift */,
+				BC5F9B4E266DD57700CF2DD1 /* K.swift */,
+				BC5F9B51266DD8AD00CF2DD1 /* APIHelper.swift */,
+				BC5F9B53266DEB2100CF2DD1 /* Calculator.swift */,
+				BC85E7DE266F324200A79FC6 /* Format.swift */,
+				BCC56897266FE6700044EA0D /* LocationManager.swift */,
+				BCC5689B266FEABB0044EA0D /* DataManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BCFC42B226706CC5009A7612 /* ScrollViewPracticeFormatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC42B326706CC5009A7612 /* ScrollViewPracticeFormatTests.swift */,
+				BCFC42B526706CC5009A7612 /* Info.plist */,
+			);
+			path = ScrollViewPracticeFormatTests;
+			sourceTree = "<group>";
+		};
+		CF6B220049374687E6D3CA0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD918C09E2C767F3D873829F /* Pods_ScrollViewPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC1DB2BB266E8BDE00A24679 /* ScrollViewPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC1DB2C5266E8BDE00A24679 /* Build configuration list for PBXNativeTarget "ScrollViewPracticeTests" */;
+			buildPhases = (
+				BC1DB2B8266E8BDE00A24679 /* Sources */,
+				BC1DB2B9266E8BDE00A24679 /* Frameworks */,
+				BC1DB2BA266E8BDE00A24679 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC1DB2C2266E8BDE00A24679 /* PBXTargetDependency */,
+			);
+			name = ScrollViewPracticeTests;
+			productName = ScrollViewPracticeTests;
+			productReference = BC1DB2BC266E8BDE00A24679 /* ScrollViewPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC4BDC372666E22E0073FCB1 /* ScrollViewPractice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4BDC4C2666E2300073FCB1 /* Build configuration list for PBXNativeTarget "ScrollViewPractice" */;
+			buildPhases = (
+				FC10DF0603B0B1D0B5C83A8C /* [CP] Check Pods Manifest.lock */,
+				BC4BDC342666E22E0073FCB1 /* Sources */,
+				BC4BDC352666E22E0073FCB1 /* Frameworks */,
+				BC4BDC362666E22E0073FCB1 /* Resources */,
+				2344C4BB89AD4329E9AE1B93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollViewPractice;
+			productName = ScrollViewPractice;
+			productReference = BC4BDC382666E22E0073FCB1 /* ScrollViewPractice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC4BDC302666E22E0073FCB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BC1DB2BB266E8BDE00A24679 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = BC4BDC372666E22E0073FCB1;
+					};
+					BC4BDC372666E22E0073FCB1 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = BC4BDC332666E22E0073FCB1 /* Build configuration list for PBXProject "ScrollViewPractice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC4BDC2F2666E22E0073FCB1;
+			productRefGroup = BC4BDC392666E22E0073FCB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC4BDC372666E22E0073FCB1 /* ScrollViewPractice */,
+				BC1DB2BB266E8BDE00A24679 /* ScrollViewPracticeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC1DB2BA266E8BDE00A24679 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BDC362666E22E0073FCB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDE47E02671653100D76A85 /* AdCell.xib in Resources */,
+				BC2FC538266AE2A700F26603 /* USRealEstateAPI.json in Resources */,
+				BC4BDC482666E2300073FCB1 /* LaunchScreen.storyboard in Resources */,
+				BCE7395C26676085009F3AA4 /* TableViewCell.xib in Resources */,
+				BC57B8C9266D924500B05D41 /* RentEstimateAPI.json in Resources */,
+				BC4BDC452666E2300073FCB1 /* Assets.xcassets in Resources */,
+				BC4BDC432666E22E0073FCB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2344C4BB89AD4329E9AE1B93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollViewPractice/Pods-ScrollViewPractice-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ScrollViewPractice/Pods-ScrollViewPractice-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ScrollViewPractice/Pods-ScrollViewPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC10DF0603B0B1D0B5C83A8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScrollViewPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC1DB2B8266E8BDE00A24679 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1DB2BF266E8BDE00A24679 /* ScrollViewPracticeCalculatorTests.swift in Sources */,
+				BCFC42BC26706D31009A7612 /* ScrollViewPracticeFormatTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC4BDC342666E22E0073FCB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC4BDC402666E22E0073FCB1 /* HomeVC.swift in Sources */,
+				BCC56898266FE6700044EA0D /* LocationManager.swift in Sources */,
+				BC3E265926752FB0005C999C /* HomeVCExtensions.swift in Sources */,
+				BC85E7DF266F324200A79FC6 /* Format.swift in Sources */,
+				BCDE47DF2671653100D76A85 /* AdCell.swift in Sources */,
+				BC6826F12669FA5500E5958E /* ZillowPropertyDetails.swift in Sources */,
+				BCE7395B26676085009F3AA4 /* TableViewCell.swift in Sources */,
+				BC6826EF2669F7A600E5958E /* ZillowPropertyExtendedSearchModel.swift in Sources */,
+				BC6826EB2669F07900E5958E /* USRealEstatePropertyModel.swift in Sources */,
+				BC5F9B4F266DD57700CF2DD1 /* K.swift in Sources */,
+				BCC5689C266FEABB0044EA0D /* DataManager.swift in Sources */,
+				BC5F9B54266DEB2100CF2DD1 /* Calculator.swift in Sources */,
+				BC57B8C7266D766D00B05D41 /* RentEstimateModel.swift in Sources */,
+				BC4BDC3C2666E22E0073FCB1 /* AppDelegate.swift in Sources */,
+				BC4BDC3E2666E22E0073FCB1 /* SceneDelegate.swift in Sources */,
+				BC69C2BC266AE45900B64DF1 /* Extensions.swift in Sources */,
+				BC5F9B52266DD8AD00CF2DD1 /* APIHelper.swift in Sources */,
+				BCB07506267002E00062A538 /* Attributes.swift in Sources */,
+				BCC5689A266FEA530044EA0D /* MapQuestModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC1DB2C2266E8BDE00A24679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC4BDC372666E22E0073FCB1 /* ScrollViewPractice */;
+			targetProxy = BC1DB2C1266E8BDE00A24679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC4BDC412666E22E0073FCB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4BDC422666E22E0073FCB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC4BDC462666E2300073FCB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC4BDC472666E2300073FCB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC1DB2C3266E8BDE00A24679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 676A84J3QT;
+				INFOPLIST_FILE = ScrollViewPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanKanno.ScrollViewPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewPractice.app/ScrollViewPractice";
+			};
+			name = Debug;
+		};
+		BC1DB2C4266E8BDE00A24679 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 676A84J3QT;
+				INFOPLIST_FILE = ScrollViewPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanKanno.ScrollViewPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewPractice.app/ScrollViewPractice";
+			};
+			name = Release;
+		};
+		BC4BDC4A2666E2300073FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC4BDC4B2666E2300073FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC4BDC4D2666E2300073FCB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64380BDCB7F003F1C273A760 /* Pods-ScrollViewPractice.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 676A84J3QT;
+				INFOPLIST_FILE = ScrollViewPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanKanno.ScrollViewPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC4BDC4E2666E2300073FCB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7C9223226912CF6BCF1AFD /* Pods-ScrollViewPractice.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 676A84J3QT;
+				INFOPLIST_FILE = ScrollViewPractice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RyanKanno.ScrollViewPractice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC1DB2C5266E8BDE00A24679 /* Build configuration list for PBXNativeTarget "ScrollViewPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC1DB2C3266E8BDE00A24679 /* Debug */,
+				BC1DB2C4266E8BDE00A24679 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4BDC332666E22E0073FCB1 /* Build configuration list for PBXProject "ScrollViewPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4BDC4A2666E2300073FCB1 /* Debug */,
+				BC4BDC4B2666E2300073FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4BDC4C2666E2300073FCB1 /* Build configuration list for PBXNativeTarget "ScrollViewPractice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC4BDC4D2666E2300073FCB1 /* Debug */,
+				BC4BDC4E2666E2300073FCB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC4BDC302666E22E0073FCB1 /* Project object */;
+}

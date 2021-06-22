@@ -1,0 +1,6 @@
+framework module Pods_ScrollViewPractice {
+  umbrella header "Pods-ScrollViewPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
